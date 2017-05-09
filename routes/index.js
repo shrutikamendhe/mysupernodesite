@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var connectionString = process.env.CUSTOMCONNSTR_DefaultConnection;
+var connectionString = process.env.POSTGRESQLCONNSTR_DefaultConnection;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
